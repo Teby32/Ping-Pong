@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3e3e3e; /* Fondo del body */
+    margin: 0;
+}
+
+canvas {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #73EC8B; /* Color de fondo del canvas */
+}
+
+.controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #D94C4C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #C83B3B;
+}
